@@ -1,0 +1,32 @@
+.square {
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+}
+
+.grid {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    height: 618px;
+    width: 618px;
+    margin: 50px 50px 50px 120px;
+}
+
+.crab {
+    background-image: url('crab.jpg');
+    background-size: cover;
+}
+
+/*@media (max-width: 320px) {
+    .grid {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    height: 309px;
+    width: 309px;
+    margin: 50px 50px 50px 120px;
+    }
+}
